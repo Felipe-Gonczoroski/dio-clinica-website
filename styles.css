@@ -1,0 +1,197 @@
+html,
+body {
+  margin: 0 0 0.5rem 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Lato", sans-serif;
+  background-color: #f0f4f8;
+}
+
+main {
+  padding: 0 3.5rem 0 3.5rem;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #f0f4f8;
+}
+
+h2 {
+  font-size: 1.7rem;
+  color: #333333;
+  margin: 0;
+}
+
+h3 {
+  color: #333333;
+  margin: 2.5rem 0 1rem 0;
+}
+
+table,
+tr,
+td {
+  border: 1px solid #333333;
+  border-collapse: collapse;
+}
+
+th {
+  padding-right: 5rem;
+  background-color: #333333;
+  color: #f0f4f8;
+}
+
+fieldset {
+  width: 55rem;
+}
+
+label {
+  margin-right: 0.3rem;
+}
+
+input {
+  margin: 0 1rem 0 0;
+}
+
+input.name {
+  width: 9rem;
+}
+
+input.email {
+  width: 16rem;
+}
+
+input.subject {
+  width: 14.5rem;
+}
+
+.small-mt {
+  margin-top: 0.5rem;
+}
+
+.mt {
+  margin-top: 1.5rem;
+}
+
+.mb {
+  margin-bottom: 1.5rem;
+}
+
+.section {
+  margin-bottom: 3.5rem;
+}
+
+.paragraph {
+  max-width: 60rem;
+  margin: 1rem 0 2rem 0;
+}
+
+.images {
+  width: 30rem;
+  height: 20rem;
+}
+
+.header {
+  width: 100%;
+  height: 5.3rem;
+  background-color: #145da0;
+  margin-bottom: 3.5rem;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-items-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.25rem;
+  width: 21rem;
+}
+
+.logo-img {
+  width: 60px;
+  height: 60px;
+}
+
+.header-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 0.5rem;
+}
+
+.nav-items-container {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 1rem;
+  color: #f0f4f8;
+}
+
+.menu-item {
+  text-decoration: none;
+  color: #f0f4f8;
+}
+
+.menu-item:hover {
+  color: #ffd500;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 30rem;
+  height: auto;
+  gap: 1rem;
+}
+
+.contact-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 30rem;
+  height: auto;
+  gap: 0.4rem;
+}
+
+.phone-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.link-contact {
+  text-decoration: none;
+  color: #333333;
+}
+
+.link-contact:hover {
+  color: #145da0;
+}
+
+.mobile-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.subject-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.message-container {
+  display: flex;
+  flex-direction: column;
+}
